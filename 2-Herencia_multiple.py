@@ -28,8 +28,9 @@ objeto_d.metodo_b()  # Salida: Método de clase B
 objeto_d.metodo_c()  # Salida: Método de clase C
 objeto_d.metodo_d()  # Salida: Método de clase D
 
+# Saber de donde proviene la instancia
 print(objeto_d.__class__)
-# Saber de donde hereda la instancia
+# Saber de donde hereda la clase con la que se instancia
 print(issubclass(objeto_d.__class__, A))
 print(issubclass(objeto_d.__class__, B))
 print(issubclass(objeto_d.__class__, C))
